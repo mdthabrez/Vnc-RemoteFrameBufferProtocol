@@ -1,11 +1,33 @@
-REMOTE FRAMEBUFFER PROTOCOL 
 
-RFC - 6143
+# Vnc - Remote Frame Buffer Protocol
 
-TO EXECUTE
-1.Run  src/remoteserver/ServerInitiator.java (as server)
-2.Run  src/remoteclient/ClientInitiator.java (as client)
+Vnc - Remote Frame Buffer Protocol is a simple JAVA and WEB SOCKETS based implementation of Vnc which follows the Remote Frame Buffer Protocol (RFC - 6143) https://datatracker.ietf.org/doc/html/rfc6143 .
 
-1. java ServerInitiator.java
-2. java ClientInitiator.java
+This Vnc has the capabilities of only screen sharing over two or more computers that are connected through LAN like your home wifi or your school computer labs. One acts as a server and all others are the clients.
+
+
+
+
+## Deployment
+
+To download this, run the following command
+
+```bash
+git clone https://github.com/mdthabrez/Vnc-RemoteFrameBufferProtocol.git
+```
+Computer 1
+```bash
+cd src/remoteserver
+java ServerInitiator.java
+```
+Computer 2
+```bash
+cd src/remoteclient
+java ClientInitiator.java
+```
+
+### Password for Vnc Authentication: 123456
+
+
+
 
