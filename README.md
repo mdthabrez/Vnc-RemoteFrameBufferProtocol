@@ -9,6 +9,7 @@ This Vnc has the capabilities of only screen sharing over two or more computers 
 
 **Java**  
 **Web Sockets**  
+**Multi-Threading**  
 **Java Swing GUI**  
 
 
